@@ -353,7 +353,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.png");
+  background-image: url("../img/IndexFondo2.png");
+  background-size: cover;
   position: relative;
 }
 
@@ -402,13 +403,14 @@ h6 {
   border-radius: 3px;
   margin: 10px;
   color: #fff;
-  background: #7cc576;
+  background: #da549d;
+  ;
 }
 
 #hero .btn-get-started:hover {
   transition: 0.5s;
   background: #fff;
-  color: #7cc576;
+  color: #da549d;
 }
 
 @media (min-width: 1024px) {
