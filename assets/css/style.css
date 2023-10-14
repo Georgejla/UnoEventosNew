@@ -444,7 +444,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .section-title h2 {
@@ -467,6 +467,8 @@ section {
 .about .image {
   padding: 20px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  height: 450px;
 }
 
 .about .content h3 {
