@@ -5,8 +5,20 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+ 
 (function() {
   "use strict";
+
+  /**
+   * boton toggle
+   */
+  var toggle = document.getElementById('container');
+  var body = document.querySelector('body');
+  
+  toggle.onclick = function(){
+      toggle.classList.toggle('active');
+      body.classList.toggle('active');
+  }
 
   /**
    * Easy selector helper function

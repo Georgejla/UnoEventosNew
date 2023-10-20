@@ -11,7 +11,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #555555;
+  color: white;
+  background-color: black;
 }
 
 a {
@@ -83,7 +84,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #fff;
+  background-color: black;
   box-shadow: 0 4px 10px -3px hsla(0, 0%, 75%, 0.5);
 }
 
@@ -130,16 +131,59 @@ h6 {
 /**
 * Desktop Navigation 
 */
+
+#container {
+  background-color: #f8f8f8;
+  position: relative;
+  width: 40px;
+  height: 20px;
+  box-shadow: inset 4px 4px 6px #707070,
+              inset -4px -4px 6px #fff;
+  margin: 0px auto;
+  border-radius: 35%;
+  cursor: pointer;
+}
+
+.toggle{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  transform: scale(0.7);
+  background-color: linear-gradient(145deg, #d8d8d8, #ffffff );
+  border-radius: 50%;
+  box-shadow: 3px 3px 8px #707070,
+              -3px -3px 8px #fff;
+}
+
+#container.active .toggle{
+  left: 20px;
+}
+
+body.active h2{
+  background-color: white;
+  color: black;
+
+  
+}
+
+#navbar{
+  background-color: black;
+}
+
+
 .navbar {
   padding: 0;
 }
 
 .navbar ul {
   margin: 0;
-  padding: 0;
+  padding: 10px 10px 10px 50px;;
   display: flex;
   list-style: none;
   align-items: center;
+  flex-direction: row;
 }
 
 .navbar li {
@@ -153,7 +197,7 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 15px;
-  color: #151515;
+  color: white;
   text-transform: uppercase;
   white-space: nowrap;
   transition: 0.3s;
@@ -170,8 +214,11 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #7cc576;
+  color: #e637c8;
 }
+
+
+
 
 .navbar .dropdown ul {
   display: block;
@@ -186,6 +233,7 @@ h6 {
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
+ 
 }
 
 .navbar .dropdown ul li {
@@ -201,6 +249,7 @@ h6 {
 
 .navbar .dropdown ul a i {
   font-size: 12px;
+  border: blueviolet;
 }
 
 .navbar .dropdown ul a:hover,
@@ -213,12 +262,15 @@ h6 {
   opacity: 1;
   top: 100%;
   visibility: visible;
+  border: blueviolet;
+
 }
 
 .navbar .dropdown .dropdown ul {
   top: 0;
   left: calc(100% - 30px);
   visibility: hidden;
+  border: blueviolet;
 }
 
 .navbar .dropdown .dropdown:hover>ul {
@@ -226,6 +278,7 @@ h6 {
   top: 0;
   left: 100%;
   visibility: visible;
+  border: blueviolet;
 }
 
 @media (max-width: 1640px) {
@@ -290,7 +343,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #fff; 
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -346,6 +399,8 @@ h6 {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
+
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -439,12 +494,13 @@ section {
 }
 
 .section-bg {
-  background-color: whitesmoke;
+ /* background-color: whitesmoke; */
 }
 
 .section-title {
   text-align: center;
   padding-bottom: 70px;
+  margin-top: 32px;
 }
 
 .section-title h2 {
@@ -453,7 +509,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 15px;
   padding-bottom: 0;
-  color: #151515;
+  color: white;
 }
 
 .section-title p {
@@ -961,13 +1017,13 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+/*  background-color: #fff; */
   opacity: 1;
   border: 1px solid #7cc576;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #7cc576;
+/*  background-color: #7cc576; */
 }
 
 .portfolio-details .portfolio-info {
@@ -1086,11 +1142,11 @@ section {
   width: 12px;
   height: 12px;
   opacity: 1;
-  background-color: rgba(255, 255, 255, 0.4);
+/*  background-color: rgba(255, 255, 255, 0.4); */
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #7cc576;
+ /* background-color: #7cc576; */
 }
 
 @media (min-width: 992px) {
