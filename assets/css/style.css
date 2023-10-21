@@ -1608,11 +1608,11 @@ section {
 }
 
 #footer .footer-top .footer-logo img {
-  height: 80px;
+  height: 150px;
 }
 
 #footer .footer-top h3 {
-  font-size: 36px;
+  font-size: 20px;
   font-weight: 700;
   color: #fff;
   position: relative;
