@@ -11,7 +11,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #555555;
+  background-color: black;
+  color: white;
 }
 
 a {
@@ -43,7 +44,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #7cc576;
+  background: #EC268F;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -57,7 +58,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #97d193;
+  background: #e057a0;
   color: #fff;
 }
 
@@ -83,7 +84,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #fff;
+  background-color: black;
   box-shadow: 0 4px 10px -3px hsla(0, 0%, 75%, 0.5);
 }
 
@@ -153,7 +154,7 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 15px;
-  color: #151515;
+  color: white;
   text-transform: uppercase;
   white-space: nowrap;
   transition: 0.3s;
@@ -170,7 +171,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #7cc576;
+  color: #EC268F;
 }
 
 .navbar .dropdown ul {
@@ -206,7 +207,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #7cc576;
+  color:#EC268F76;
 }
 
 .navbar .dropdown:hover>ul {
@@ -305,7 +306,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #7cc576;
+  color: #EC268F;
 }
 
 .navbar-mobile .getstarted,
@@ -340,7 +341,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #7cc576;
+  color: #EC268F;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -403,14 +404,14 @@ h6 {
   border-radius: 3px;
   margin: 10px;
   color: #fff;
-  background: #da549d;
+  background: #EC268F;
   ;
 }
 
 #hero .btn-get-started:hover {
   transition: 0.5s;
   background: #fff;
-  color: #da549d;
+  color: #EC268F;
 }
 
 @media (min-width: 1024px) {
@@ -453,7 +454,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 15px;
   padding-bottom: 0;
-  color: #151515;
+  color: white;
 }
 
 .section-title p {
@@ -490,7 +491,7 @@ section {
 .about .content ul i {
   font-size: 24px;
   padding: 2px 6px 0 0;
-  color: #7cc576;
+  color: #EC268F;
 }
 
 .about .content p:last-child {
@@ -509,7 +510,7 @@ section {
 .services .icon-box i {
   font-size: 48px;
   float: left;
-  color: #7cc576;
+  color: #EC268F; 
 }
 
 .services .icon-box p {
@@ -530,7 +531,7 @@ section {
 --------------------------------------------------------------*/
 .featured {
   padding: 40px 0 0 0;
-  background: white;
+  background: black;
 }
 
 .featured .nav-tabs {
@@ -540,7 +541,8 @@ section {
 .featured .nav-link {
   border: 0;
   padding: 20px;
-  color: #151515;
+  background-color: black;
+  color: white;
   transition: 0.3s;
 }
 
@@ -551,7 +553,7 @@ section {
 }
 
 .featured .nav-link:hover h4 {
-  color: #7cc576;
+  color: #EC268F;
 }
 
 .featured .nav-link p {
@@ -564,7 +566,7 @@ section {
 }
 
 .featured .nav-link.active h4 {
-  color: #7cc576;
+  color: #EC268F;
 }
 
 .featured .tab-pane.active {
@@ -585,7 +587,7 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 .why-us {
-  background: whitesmoke;
+  background: black;
   padding: 0;
 }
 
