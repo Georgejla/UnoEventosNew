@@ -634,7 +634,7 @@ section {
 
 .why-us .accordion-list li {
   padding: 20px;
-  background: #fff;
+  background: #000000;
   border-radius: 4px;
 }
 
@@ -1715,7 +1715,7 @@ section {
 }
 
 .text{
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 #galeria .col-lg-4{
