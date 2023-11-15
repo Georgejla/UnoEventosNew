@@ -1,0 +1,50 @@
+cambiar comentarios:
+ver carpeta
+
+franja blanca eliminar
+
+
+
+SERVICIOS
+	FIESTA DE 15
+		Dj, Luces, Estructuras
+		Fotografía
+		Filmación y edición de videos
+	BODAS
+		Dj, Luces, Estructuras
+		Fotografía
+		Filmación y edición de videos
+	CUMPLEAÑOS
+		Dj, Luces, Estructuras
+		Fotografía
+		Filmación y edición de videos
+	EVENTOS SOCIALES
+		Dj, Luces, Estructuras
+		Fotografía
+		Filmación y edición de videos
+	Servicios Adicionales
+
+
+		
+nuestro trabajo
+	quitar de inicio pero convertir a fiesta de 15
+
+quienes somos
+	quitar de inicio pero convertir a bodas
+
+
+localidad
+email
+telefono
+quitar
+
+agregar en el footer
+solo datos
+localidad
+email
+telefon
+
+
+redes sociales
+orden
+face - insta - you - tik - wp
