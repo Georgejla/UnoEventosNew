@@ -1,7 +1,7 @@
-cambiar comentarios:
+﻿cambiar comentarios:
 ver carpeta
 
-franja blanca eliminar
+franja blanca eliminar - LISTO
 
 
 
@@ -27,22 +27,22 @@ SERVICIOS
 
 		
 nuestro trabajo
-	quitar de inicio pero convertir a fiesta de 15
+	quitar de inicio pero convertir a fiesta de 15 - LISTO
 
 quienes somos
-	quitar de inicio pero convertir a bodas
+	quitar de inicio pero convertir a bodas - LISTO
 
 
 localidad
 email
 telefono
-quitar
+quitar - LISTO
 
 agregar en el footer
 solo datos
 localidad
 email
-telefon
+telefon - LISTO
 
 
 redes sociales
